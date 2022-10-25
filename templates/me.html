@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="me.css">
+    <title>Startseite</title>
+</head>
+
+<body>
+    <h1>Hallo zusammen</h1>
+    <p>Bitte wählen sie eine Datei aus, die Sie gerne zu einem GIF konvertieren wollen. (Supported nur MP4 Dateien)</p>
+    <div id="home">
+        <form name="passdata" action="http://localhost:5000/me" method="POST" enctype="multipart/form-data">
+            <input type="file" name="video_mp4" id="video_mp4"><br><br>
+            <input type="submit" value="Convert">
+        </form>
+    </div>
+</body>
+
+</html>

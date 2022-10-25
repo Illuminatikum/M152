@@ -1,0 +1,8 @@
+#home {
+    white-space: nowrap;
+}
+
+.formulare {
+    display: flex;
+    justify-content: center;
+}
